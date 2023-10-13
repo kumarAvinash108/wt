@@ -1,0 +1,9 @@
+x-axix in css is known as main axix
+y axix in css is known as cross-axix
+for main axix use justify content
+for cross axix use align item center
+it is suggested that we should not use position absolute frequently in our website because it will create problem while we are making our website responsive instead of it we should use display flex
+example is given by a div named as flexExample
+
+css media queries
+the syntax of media queries is media (max-width: (size))

@@ -1,0 +1,2 @@
+GSAP stands for GreenSock animation Platform
+CDN stands for content delivery Network

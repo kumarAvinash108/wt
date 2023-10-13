@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: saddlebrown;
+    animation: move ;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes move {
+    0%{
+        top: 0;
+        left: 0;
+        background-color: seagreen;
+      
+        
+    }
+    50%{
+        background-color: blue;
+        
+        top: 70%;
+    }
+    75%{
+        background-color: gold;
+        
+        top: 40%;
+        rotate: 360deg;
+    }
+    95%{
+        background-color: grey;
+        
+        top: 20%;
+    }
+    99%{
+        background-color: pink;
+        
+        top: 12%;
+    }
+    100%{
+        left: 60%;
+        background-color: red;
+       
+    }
+    
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sample{
+    height: 526px;
+    width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: bisque;
+}
+.sample span{
+    font-size: 60px;
+    font-weight: 900;
+    margin: 2px;
+   position: absolute;
+    left: 0;
+    top: 0;
+    transition: all ease-in-out 5s;
+     
+}
+
+@keyframes text {
+  0%{
+color: red;
+top: 0;
+left: 0;
+rotate: 270deg;
+  }
+  100%{
+color: gold;
+left: 60%;
+top: 100%;
+
+  }
+}
